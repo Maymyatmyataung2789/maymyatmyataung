@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GIS and Water Resources Engineer - Portfolio</title>
+  <style>
+    /* Reset and basics */
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background-color: #f8f9f8;
+      color: #222;
+      line-height: 1.6;
+    }
+    a {
+      color: #2a7ae2;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    /* Container */
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+      background: white;
+      box-shadow: 0 0 10px rgb(0 0 0 / 0.1);
+    }
+    header {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      background-color: #9dcf99;
+      padding: 20px;
+      border-radius: 6px;
+      margin-bottom: 30px;
+    }
+    header img {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 10px;
+      border: 2px solid #2e7d32;
+    }
+    header .intro {
+      flex: 1;
+    }
+    header .intro h1 {
+      margin: 0 0 8px 0;
+      font-size: 2.2rem;
+      color: #2e7d32;
+    }
+    header .intro a {
+      display: inline-block;
+      margin-right: 15px;
+      font-size: 0.9rem;
+    }
+    header .intro a .icon {
+      vertical-align: middle;
+      margin-right: 4px;
+    }
+    /* Sections */
+    section {
+      margin-bottom: 40px;
+    }
+    section h2 {
+      background-color: #9dcf99;
+      color: #1b3b17;
+      margin: 0 -20px 20px -20px;
+      padding: 10px 20px;
+      border-radius: 4px 4px 0 0;
+      font-size: 1.5rem;
+    }
+    /* Two-column layout */
+    .two-column {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .left-col {
+      flex: 1 1 220px;
+      background-color: #c5d9b8;
+      padding: 15px 20px;
+      border-radius: 0 6px 6px 0;
+      color: #2e4a11;
+      font-size: 0.9rem;
+      line-height: 1.4;
+    }
+    .right-col {
+      flex: 3 1 600px;
+    }
+    /* Lists */
+    ul {
+      padding-left: 20px;
+    }
+    ul.skills-list li,
+    ul.personal-skills li {
+      margin-bottom: 6px;
+    }
+    /* Experience & Projects */
+    .job, .project {
+      margin-bottom: 25px;
+    }
+    .job h3, .project h3 {
+      margin-bottom: 6px;
+      color: #2e7d32;
+    }
+    .job .company-date, .project .tools {
+      font-style: italic;
+      font-size: 0.9rem;
+      margin-bottom: 8px;
+      color: #4b604b;
+    }
+    /* Profile */
+    .profile p {
+      margin-top: 0;
+      font-size: 1rem;
+    }
+    /* Scholarship & Certificates */
+    .scholarship, .certificates {
+      background-color: #d9e7cd;
+      padding: 15px 20px;
+      border-radius: 6px;
+      font-size: 0.95rem;
+      line-height: 1.3;
+    }
+    /* Publication */
+    .publication {
+      font-size: 0.95rem;
+      line-height: 1.4;
+    }
+    .publication a {
+      color: #2a7ae2;
+    }
+    /* Contact info icons */
+    .icon {
+      margin-right: 6px;
+      vertical-align: middle;
+      font-size: 1rem;
+      color: #2e7d32;
+    }
+    /* Responsive */
+    @media (max-width: 720px) {
+      .two-column {
+        flex-direction: column;
+      }
+      .left-col, .right-col {
+        flex: 1 1 100%;
+        border-radius: 6px;
+      }
+      header {
+        flex-direction: column;
+        text-align: center;
+      }
+      header img {
+        margin-bottom: 15px;
+      }
+      header .intro a {
+        display: block;
+        margin: 4px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="https://via.placeholder.com/120x120?text=Photo" alt="Profile Photo" id="profile-photo" />
+      <div class="intro">
+        <h1>GIS and Water Resources Engineer</h1>
+        <a href="mailto:maymyatmyataung27@gmail.com"><span class="icon">📧</span>maymyatmyataung27@gmail.com</a><br />
+        <a href="tel:+669050030570"><span class="icon">📞</span>+66 0950030570</a>,
+        <a href="tel:+95978605480"><span class="icon">📞</span>+959 786 605 480 (WhatsApp)</a><br />
+        <span><span class="icon">📍</span>Salaya, Nakhon Pathom, Bangkok, Thailand</span>
+      </div>
+    </header>
+
+    <div class="two-column">
+      <aside class="left-col">
+        <section>
+          <h2>Languages</h2>
+          <ul>
+            <li>Burmese</li>
+            <li>English</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Technical Skills</h2>
+          <ul class="skills-list">
+            <li>Data Analysis</li>
+            <li>Qualified in research using qualitative and quantitative concepts and methodologies</li>
+            <li>Skillful power in
+              <ul>
+                <li>Microsoft Word</li>
+                <li>Microsoft Excel</li>
+                <li>Power Point</li>
+                <li>Good at presentation skills</li>
+              </ul>
+            </li>
+            <li>Excellent in using
+              <ul>
+                <li>SPSS</li>
+                <li>Power BI</li>
+                <li>Arc GIS</li>
+                <li>QGIS</li>
+                <li>Delft 3D</li>
+                <li>MIKE Zero</li>
+                <li>HEC-HMS</li>
+                <li>HEC-RAS</li>
+                <li>SWMM</li>
+                <li>AutoCAD</li>
+                <li>STAAD Pro</li>
+                <li>BIM01(Modeling) and BIM 02</li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Personal Skills</h2>
+          <ul class="personal-skills">
+            <li>Good communication and management</li>
+            <li>Quick learner, hardworking, honest and polite</li>
+            <li>Help one’s difficulties and corporate them</li>
+            <li>Able to work as a team</li>
+            <li>Work under pressure and adapt to new environment easily</li>
+            <li>Eager to face new aspects and challenges</li>
+            <li>Positive thinking and confidence</li>
+            <li>Strong motivation to succeed and ability to reach goal</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Scholarship</h2>
+          <div class="scholarship">
+            <ul>
+              <li>Norwegian 2-year Full Scholarship to attend Master Program at Mahidol University, Thailand</li>
+              <li>ASEAN WATER PLATFORM 2018 in Can Tho City, Vietnam, which is fully-funded by the French National Research Institute for Sustainable Development (IRD) (6 – 15 July 2018)</li>
+            </ul>
+          </div>
+        </section>
+      </aside>
+
+      <main class="right-col">
+        <section class="profile">
+          <h2>Profile</h2>
+          <p>I am a Researcher and Project Engineer in data management and water-related projects with 6 years of experience. Professionally skilled in project management having worked with local and international experts. By applying acquired knowledge and experience, the achievement is gained with the delivery of qualified output in line with the project objectives. I am also familiar with statistics, data analysis, water quality treatment methods, hydraulic modelling, SPSS, R, Power BI, ArcGIS, QGIS and Remote Sensing. To show management skills, the Project Management Professional PMP Course was finished.</p>
+        </section>
+
+        <section class="employment">
+          <h2>Employment</h2>
+
+          <article class="job">
+            <h3>Map Ops Specialist (Team Lead) — Grab Company Limited</h3>
+            <div class="company-date">Nov 2022 – Dec 2023</div>
+            <ul>
+              <li>Manage and monitor Map Data Team Operators to ensure that OKRs has been completed within a timeframe.</li>
+              <li>Manage Map Data Team Operators to debug and improve internal map data to improve ETA/ETT more accurately.</li>
+              <li>Plan and manage field data collection (Street level image and Point of Interest) in Grab Operation Area for serving source for verified in-app location data to Customer and Driver Partner.</li>
+              <li>Analyze location-based data from usage in Grab application for finding new solutions for improving customers and driver partners experience when using map on application.</li>
+              <li>Communicate and collaborate with the regional team to improve old features and roll out new map features on app aligned with business goals.</li>
+              <li>Develop workflows for local mapping projects.</li>
+              <li>Support Geo Data to the Operation Team as requested.</li>
+              <li>Report monthly productivity and outcome of map data and projects to the Country Head.</li>
+            </ul>
+          </article>
+
+          <article class="job">
+            <h3>GIS Technician (Project-based) — Treasure Waves Construction & GeoTechs Group Co., Ltd.</h3>
+            <div class="company-date">April 2022 – Sep 2022</div>
+            <ul>
+              <li>Lead in the process of data collection from secondary data, satellite images of Sentinel-2 and Landsat 8.</li>
+              <li>Manage data cleaning process in order to use statistical analysis and update the social data (schools, villages, hospitals, etc.) of the state or region with the application of GIS and Power BI.</li>
+              <li>Lead the analysis of Land Use and Land Cover, NDVI, NDWI by using remote sensing techniques.</li>
+              <li>Evaluate the social-analysis maps, geological maps, soil maps, vegetation and water index maps, land use maps, transportation maps, etc.</li>
+              <li>Lead in the writing reports.</li>
+            </ul>
+          </article>
+
+          <article class="job">
+            <h3>Project Engineer — Water Bridge Myanmar Co., Ltd.</h3>
+            <div class="company-date">March 2020 – March 2022</div>
+            <ul>
+              <li>Assist in wastewater management design and techniques together with consultants from Netherlands for Myanmar Government Project.</li>
+              <li>Support in technical modelling related to flood risk assessment, irrigation system, water resources, urban water and wastewater management by using SWMM, 3Di and QGIS.</li>
+              <li>Manage and lead in the map production with GIS, statistical analysis, data collection, handling and monitoring in various types of water related projects.</li>
+              <li>Arrange in the stakeholder meetings and workshops in the coordination with government offices, NGOs and international funds.</li>
+            </ul>
+          </article>
+
+          <article class="job">
+            <h3>Junior Researcher at Hydro-Informatics Center — Ayeyarwady Integrated River Basin Management (AIRBM) Project</h3>
+            <div class="company-date">Feb 2018 – Feb 2020</div>
+            <ul>
+              <li>Organize the public consultation meetings and workshops in cities along the Ayeyarwady River.</li>
+              <li>Prepare the necessary documents for the scenarios in the workshops, and required tasks to invite the government officers, NGOs, CSOs, local communities.</li>
+              <li>Research water laws, hydraulic systems, waste segregation methods and eco-friendly techniques.</li>
+              <li>Studied MIKE Workbench and MIKE Zero modelling for Decision Support System.</li>
+              <li>Support in the data collection and management for the HIC database.</li>
+              <li>Assist in the process of producing Myanmar Water Law.</li>
+            </ul>
+          </article>
+
+          <article class="job">
+            <h3>Project Assistant — Eguard Environmental Services Co., Ltd.</h3>
+            <div class="company-date">May 2017 – January 2018</div>
+            <ul>
+              <li>Report and summarize the air, water and noise data compared with NEQ, IFC, ACGIH and NAAQS Guidelines.</li>
+              <li>Site visit to wastewater industry, food packaging industry, chemical industry and port industry.</li>
+              <li>Analyze the protected area near the project location by using GIS techniques.</li>
+              <li>Organize the stakeholder meeting near the project location.</li>
+              <li>Calculate the compensation of project-affected person.</li>
+              <li>Assist in reporting Initial Environmental Examination (IEE) and Abbreviated Resettlement Action Plan (ARAP) together with the consultant.</li>
+              <li>Translate IEE report English version to Myanmar.</li>
+            </ul>
+          </article>
+        </section>
+
+        <section class="projects">
+          <h2>Projects</h2>
+
+          <article class="project">
+            <h3>Data Management & Map Ops Project</h3>
+            <div class="tools"><strong>Tools:</strong> GIS, Data Analysis, Field Data Collection, Map Ops</div>
+            <p>Managed field data collection, map operations, and improved internal map data for Grab Company, improving ETA/ETT accuracy and customer experience.</p>
+          </article>
+
+          <article class="project">
+            <h3>Satellite Image Data Analysis</h3>
+            <div class="tools"><strong>Tools:</strong> GIS, Remote Sensing, Power BI, Statistical Analysis</div>
+            <p>Lead data cleaning, analysis, and reporting from satellite images and secondary data using GIS and Power BI at Treasure Waves Construction & GeoTechs Group.</p>
+          </article>
+
+          <article class="project">
+            <h3>Water & Wastewater Modeling</h3>
+            <div class="tools"><strong>Tools:</strong> SWMM, 3Di, QGIS, Hydraulic Modeling</div>
+            <p>Assisted in wastewater management design and flood risk assessment using SWMM, 3Di, and QGIS for Myanmar Government projects.</p>
+          </article>
+        </section>
+
+        <section class="education">
+          <h2>Education</h2>
+
+          <article>
+            <h3>Master of Environmental and Water Resources Engineering</h3>
+            <div class="company-date">Jan 2024 – Nov 2025</div>
+            <p>Mahidol University<br />
+              Norwegian full scholarship, first prize in pitch idea presentation, field visits to GPSC and Rayong Municipality.</p>
+          </article>
+
+          <article>
+            <h3>Bachelor of Engineering (Port and Harbour)</h3>
+            <div class="company-date">Dec 2011 – Sep 2016</div>
+            <p>Myanmar Maritime University<br />
+              Final Project: Wave analysis and Sustainable Port Development Plan at Wekaik near Lat Khote Kone Village.</p>
+          </article>
+
+          <article>
+            <h3>Post Graduate Diploma in Remote Sensing and GIS</h3>
+            <div class="company-date">Dec 2017 – Dec 2019</div>
+            <p>University of Yangon<br />
+              Final project awarded Second Prize for spatial statistics study of assault cases in Daik U Township.</p>
+          </article>
+        </section>
+
+        <section class="certificates">
+          <h2>Certificates</h2>
+          <ul>
+            <li>PMP Course – Project Management Professional</li>
+            <li>ASEAN Water Platform 2018 in Vietnam</li>
+            <li>Rainfall-Runoff & Hydrodynamic Modeling, Water Quality Modeling</li>
+            <li>One-dimensional Hydrodynamic Modelling, Introduction and Overview</li>
+            <li>River Basin Master Planning and Decision Support</li>
+            <li>Introduction to the Planning Tool of the Ayeyarwady DSS</li>
+            <li>Myanmar Flood and Drought Portal Technical Training</li>
+            <li>BIM Modeling (Revit Architecture/Structure), AutoCAD 2D/3D</li>
+          </ul>
+        </section>
+
+        <section class="publication">
+          <h2>Publication</h2>
+          <p><strong>Analysis of Spatial Distribution Patterns of Non-Communicable Diseases (NCDs) and Risk Factors with GIS in Central Regions of Thailand</strong></p>
+          <p><em>Publication Date:</em> Apr 30, 2025</p>
+          <p><em>Journal:</em> Thai Environmental Engineering Journal, Vol. 39 No. 1 (2025): January-April</p>
+          <p>Link: <a href="https://so05.tci-thaijo.org/index.php/teej/article/view/279860" target="_blank" rel="noopener noreferrer">https://so05.tci-thaijo.org/index.php
